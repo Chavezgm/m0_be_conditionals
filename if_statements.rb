@@ -26,7 +26,8 @@ end
 
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'sunscreen'
-
+weather == "rainy"
+print "umbrella"
 
 ##################
 # Using the num_quarters variable defined below, determine
@@ -37,14 +38,19 @@ end
 # out both "I have enough money for a gumball" and
 # "I don't have enough money for a gumball". Write a 
 # conditional statement that prints only one or the other.
-
+num_quarters == 0
+if num_quarters < 2  
+  puts "I don't have enough money for a gumball"
+else 
+  puts "I have enough for a gumball"
+end
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
 
 num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+ puts "I have enough money for a gumball"
+ puts "I don't have enough money for a gumball"
 
 
 #####################
