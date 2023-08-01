@@ -27,7 +27,7 @@ end
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'sunscreen'
 weather == "rainy"
-print "umbrella"
+
 
 ##################
 # Using the num_quarters variable defined below, determine
@@ -49,8 +49,9 @@ if num_quarters < 2
 else 
   puts "I have enough for a gumball"
 end
- puts "I have enough money for a gumball"
- puts "I don't have enough money for a gumball"
+ 
+
+
 
 
 #####################
@@ -69,3 +70,12 @@ end
 
 cups_of_flour = 1
 has_sauce = true
+
+
+if cups_of_flour >= 2 && has_sauce == true 
+  puts " I can make pizza"
+else 
+  puts "I cannot make pizza" 
+end 
+
+# This code will achive all the outputs we were given.
